@@ -1,0 +1,42 @@
+/*Inserta imagen al cuerpo */
+html{
+background-image: url("https://media.minutouno.com/adjuntos/150/imagenes/023/122/0023122023.jpeg");
+}
+h1 {
+  font-family: Aharoni ;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+  }
+  h2 {
+    font-family: Aharoni;
+      color: white;
+      text-align: center;
+      font-size: 23px;
+    }
+h3{
+    font-family: Aharoni ;
+      color: white;
+      text-align: center;
+      font-size: 23px;
+  }
+h4{
+      font-family: Aharoni ;
+        color: white;
+        text-align: center;
+        font-size: 23px;
+  }
+  h5{
+        font-family: Aharoni ;
+          color: blue;
+          text-align: center;
+          font-size: 18px;
+          background-color: white;
+    }
+
+
+
+  h6{
+          text-align: center;
+
+    }
