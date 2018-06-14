@@ -1,6 +1,6 @@
 window.cipher = {
 //Funcion cifra
-encode:()=> {
+encode:(mens,n)=> {
 let mens= (text.value.toUpperCase());
 let n= parseInt(desp.value);
 
@@ -15,7 +15,7 @@ for(let i=0; i<mens.length; i++) {
       }
     },
 //Funcion descifra
-decode:() => {
+decode:(mens,n) => {
 let mens= (text.value.toUpperCase());
 let n= parseInt(desp.value);
 for(let j=0; j< mens.length; j++) {
@@ -29,7 +29,7 @@ for(let j=0; j< mens.length; j++) {
 }
 
 },
-borrar:() => {
+borrar:(mens) => {
   let mens= (text.value.toUpperCase());
  document.getElementById("resultado").innerHTML=" ";
  document.getElementById("tex").innerHTML=" ";
