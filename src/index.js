@@ -1,3 +1,4 @@
 //Declaraciond e variables
-text = document.getElementById("mensaje");
-desp = document.getElementById("desplazamiento");
+
+let text = document.getElementById("mensaje");
+let desp = document.getElementById("desplazamiento");
