@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
-/*Resetea los estilos del navegador */
+/*Quita los estilos predeterminados del navegador,y  el movil tome el ancho del 100% */
 *{
   box-sizing: border-box;
 }
@@ -68,12 +68,11 @@ h2,h3,h4{
           background-color: white;
     }
 
-
-
   h6{
           text-align: center;
 
     }
+    /* Responsive a partir de los 600px se aplican estos estilos*/
 @media(max-width: 600px) {
   .content1, .content2{
     width: 100%;

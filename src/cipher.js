@@ -2,7 +2,7 @@ window.cipher = {
 
 //Funcion cifrar
 encode:()=> {
-//Introduccion de variables llamadas desde
+//Introduccion de variables llamadas desde index js
 let mens= (text.value.toUpperCase());
 let n= parseInt(desp.value);
 //
