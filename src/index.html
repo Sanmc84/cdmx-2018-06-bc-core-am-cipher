@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html
-  <head>
-    <meta charset="utf-8">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Codigo Cesar</title>
+  <link rel="stylesheet" href="style.css">
 
-    <title>Codigo Cesar</title>
-    <link rel="stylesheet" href="style.css">
-      </head>
-        <body>
-<h1> CIPHER </h1>
-<h2>Introduce mensaje<p><input type="text" id="mensaje" placeholder="palabra"></p></h2>
-<h3>Introduce tu clave <p><input type="text" id="desplazamiento" placeholder="desplazamiento"></p></h2>
-<h4>Resultado:<p></h4><h5><div id=resultado></div><p></h5>
+  <!--la etiqueta viwport escala el  navegador para el diseño responsivo-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
+<body class="body">
 
-<h6> <th><span id="buttonUno"><button onclick="cipher.encode()">Cifrar</button></span></th>
-<th><span id="buttonDos"><button onclick="cipher.decode()">Descifrar</button></span></th>
-<th><span id="buttonTres"><button onclick="cipher.borrar()">Borrar</button></span></th></h6>
+  <div class="content1">
+    <div class="center">
+      <h1 class="" id="">PASSWORD</h1>
+      <h2>Introduce mensaje:</h2>
+      <input type="text" id="mensaje" placeholder=" ">
+      <h3>Introduce clave:</h3>
+      <input type="text" id="desplazamiento" placeholder=" " maxlength="10 required">
+      <h4>Tu nuevo password es:</h4> <br>
+      <div id="resultado"></div>
 
+      <h6> <span id="buttonUno"><button onclick="cipher.encode()">Encode</button></span>
+      <span id="buttonDos"><button onclick="cipher.decode()">Decode</button></span>
+      <span id="buttonTres"><button onclick="cipher.borrar()">Borrar password</button></span></h6>
+    </div>
 
-<div id="root"></div>
+  </div>
+  <div class="content2">
+    <p>Nota: Da click en encode ó decode segun lo indicado en tu correo.</p>
+  </div>
+</body>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
-</body>
 </html>

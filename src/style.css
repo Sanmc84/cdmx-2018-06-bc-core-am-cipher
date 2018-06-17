@@ -1,35 +1,69 @@
-/*Inserta imagen al cuerpo */
-html{
-background-image: url("https://www.inesem.es/sites/default/files/deslizador_cursos/Curso-Superior-Incidentes-Auditoria-Seguridad-Informatica.jpg");
+
+ /*Importa fuente tipografica de google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*Resetea los estilos del navegador */
+*{
+  box-sizing: border-box;
 }
-h1 {
-  font-family: New Roman ;
-    color: white;
-    text-align: left;
-    font-size: 55px;
-  }
-  h2 {
-    font-family: left;
-      color: gray 80%;
-      text-align: left;
-      font-size: 23px;
-    }
-h3{
-    font-family: Aharoni ;
-      color: white;
-      text-align: left;
-      font-size: 23px;
-  }
-h4{
-      font-family: Aharoni ;
-        color: white;
-        text-align: left;
-        font-size: 23px;
-  }
+
+.center{
+    text-align: center;
+}
+
+/*Clase body */
+.body{
+  background: url(img/bg.jpg) center center fixed; /*   Shorthand  */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+/*Aplica mismo estilo a content 1 y 2 */
+.content1, .content2{
+  width: 50%;
+  background-color: #0000008c;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.content1 h1{
+  text-align: center;
+}
+.content2 p{
+  font-weight: 600;
+  font-size: 20px;
+}
+#resultado{
+  border-radius: 15px; /* borde redondeado*/
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  background: #5f9ea0;
+  width: 50%;
+  margin: 0 auto; /*Centra el elemento*/
+}
+/*Aplica mismo estilo a h1,2,3,4 y p */
+h1,h2,h3,h4,p {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+}
+
+h1{
+  font-size: 55px;
+}
+
+h2,h3,h4{
+  font-size: 23px;
+}
+
   h5{
-        font-family: Aharoni ;
-          color: blue;
-          text-align: left;
+      font-family: Aharoni ;
+      color: blue;
+          text-align: center;
           font-size: 18px;
           background-color: white;
     }
@@ -37,6 +71,17 @@ h4{
 
 
   h6{
-          text-align: left;
+          text-align: center;
 
     }
+@media(max-width: 600px) {
+  .content1, .content2{
+    width: 100%;
+  }
+
+  h6 span{
+    display: block;
+    margin: 10px;
+    padding: 0;
+  }
+}
