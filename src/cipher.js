@@ -2,15 +2,15 @@ window.cipher = {
 
 //Funcion cifrar
 encode:()=> {
-//Introduccion de variables llamadas desde index js
+//Introduccion de variables llamadas desde index.js
 let mens= (text.value.toUpperCase());
 let n= parseInt(desp.value);
 //
 for(let i=0; i<mens.length; i++) {
-//
+//Número de posición en codigo ascii
        let codCesar=((mens.charCodeAt(i) - 65 + n) % 26) + 65;
        console.log(codCesar);
-//
+//Letra que ocupa lugar en codigo
       let mensajeCif= String.fromCharCode(codCesar);
              console.log(mensajeCif);
 //Imprime la palabra cifrada (el += concatena el resultado)

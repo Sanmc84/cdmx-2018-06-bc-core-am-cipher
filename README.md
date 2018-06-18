@@ -27,10 +27,9 @@ tu estado de cuenta, ya que sería un password falso. La app te ayuda a descifra
 BAN-MEX enviará mensualmente a sus clientes un correo con un mensaje y una clave e indicando si este será encode o
 decode. 
 
-* El cliente debera igresar a la pagina de la app
-
-* Ingresara el mensaje (texto) en la casilla indicada.
-* Ingresara la clave
-* Dará clik al botón señalado (Code o Encode)
-Como resultado obtendrá el password verdadero con el cual sí podrá ingresar a su estado de cuenta. 
+1.- El cliente debera igresar a la pagina de la app
+2.-Ingresara el mensaje (texto) en la casilla indicada.
+3.- Ingresara la clave
+4.- Dará clik al botón señalado (Code o Encode)
+5.-Como resultado obtendrá el password verdadero con el cual sí podrá ingresar a su estado de cuenta. 
 
