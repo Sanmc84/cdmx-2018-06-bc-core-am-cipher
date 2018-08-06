@@ -1,5 +1,16 @@
 # PASSWORD DINAMICO
 
+### Uso de la app
+
+BAN-MEX enviará mensualmente a sus clientes un correo con un mensaje y una clave e indicando si este será encode o
+decode. 
+
+1.- El cliente debera igresar a la pagina de la app
+2.-Ingresara el mensaje (texto) en la casilla indicada.
+3.- Ingresara la clave
+4.- Dará clik al botón señalado (Code o Encode)
+5.-Como resultado obtendrá el password verdadero con el cual sí podrá ingresar a su estado de cuenta. 
+
 ## Preámbulo
 
 • El banco BAN-MX está preocupado por la seguridad de sus clientes de banca en línea, ya que los casos de hackeo de password para consulta de estados de cuenta ha ido en aumento, provocando la disminución del uso de este servicio. 
@@ -21,15 +32,5 @@ Si lograran hackear tu correo en donde recibes tu password mensual para revisar 
 tu estado de cuenta, ya que sería un password falso. La app te ayuda a descifrar o cifrar el password falso para que solo el cliente pueda acceder a su cuenta, es decir, la app le otorga el password verdadero mediante un cifrado o descifrado en código cesar. Con esto se brinda un candado adicional en la seguridad del usuario de banca móvil. 
 
 
-### Uso de la app
 
-
-BAN-MEX enviará mensualmente a sus clientes un correo con un mensaje y una clave e indicando si este será encode o
-decode. 
-
-1.- El cliente debera igresar a la pagina de la app
-2.-Ingresara el mensaje (texto) en la casilla indicada.
-3.- Ingresara la clave
-4.- Dará clik al botón señalado (Code o Encode)
-5.-Como resultado obtendrá el password verdadero con el cual sí podrá ingresar a su estado de cuenta. 
 
